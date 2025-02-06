@@ -9,6 +9,9 @@ const toDoSchema = new mongoose.Schema({
     },
     status: {
         status: Boolean,
+    },
+    priority: {
+       type: Array,
     }
     
 })
